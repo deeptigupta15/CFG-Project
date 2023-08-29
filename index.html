@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1> BMI CALCULATOR </h1>
+    </div>
+    <div class="wrapper">
+        
+        <p>Height in CM:
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+
+        <p>Weight in KG:
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+        </p>
+
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+        
+        <button class="accordion">BMI weight ranges</button>
+         <div class="panel">
+          <p>A BMI calculation in the healthy weight range is between 18.5 to 24.9.
+
+            For Black, Asian and some other minority ethnic groups, the healthy weight range is 18.5 to 23.
+            
+            For people of White heritage, a BMI:
+            
+            below 18.5 is underweight
+            between 18.5 and 24.9 is healthy
+            between 25 and 29.9 is overweight
+            of 30 or over is obese</p>
+
+            <button class="accordion">How the BMI is calculated</button>
+         <div class="panel">
+            <p> The BMI calculation divides an adult's weight in kilograms (kg) by their height in metres (m) squared.
+
+            For example, if you weigh 70kg (around 11 stone) and are 1.73m (around 5 feet 8 inches) tall, you work out your BMI by:
+            
+            squaring your height: 1.73x1.73 = 2.99
+            dividing 70 by 2.99 = 23.41 </p>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
